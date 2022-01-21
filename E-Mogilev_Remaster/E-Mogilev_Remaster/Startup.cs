@@ -16,7 +16,7 @@ namespace E_Mogilev_Remaster
 
         public IConfiguration Configuration { get; }
 
-        private const string AngularClientName = "E-Mogilev-Remaster-Client";
+        private const string AngularClientName = "E-Mogilev-Remaster-Client";   
 
         public void ConfigureServices(IServiceCollection services)
         {

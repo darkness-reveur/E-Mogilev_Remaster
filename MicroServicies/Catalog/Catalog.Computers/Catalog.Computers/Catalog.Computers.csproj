@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Catalog.Computers.Cummon\Catalog.Computers.Cummon.csproj" />
+    <ProjectReference Include="..\Catalog.Computers.Infrastructure\Catalog.Computers.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
